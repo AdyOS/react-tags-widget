@@ -1,6 +1,7 @@
 # react-tags-widget
 
 **Description**
+
 Custom react component to display, add and remove tags.
 What component can:
 1. Accept array of strings (tags) and onChange callback that returns updated tags
@@ -8,10 +9,12 @@ What component can:
 
 
 **Install**
+
 `git clone git@github.com:AdyOS/react-tags-widget.git`
 `cd react-tags-widget && npm i`
 
 **Run test version**
+
 1. Run from console `./dev`
 2. Go to http://localhost:8081/
 
