@@ -1,0 +1,60 @@
+.react-tag-widget {
+    h3 {
+        color: #535859;
+        font-family: Arial;
+        font-weight: normal;
+    }
+    animation: test;
+}
+
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+.tag-list {
+    display: block;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+
+.tag {
+    background-color: #f0941c;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    padding: 6px;
+    font-family: Arial;
+    margin-right: 3px;
+
+    &--input {
+        background: transparent;
+
+        input {
+            border: 0;
+            color: #777;
+            font-family: sans-serif;
+            font-size: 13px;
+            font-weight: 400;
+            margin-bottom: 6px;
+            margin-top: 1px;
+            outline: none;
+            padding: 5px;
+            width: 80px;
+        }
+    }
+
+    &__text, &__close {
+        display: inline-block;
+        line-height: 20px;
+    }
+
+    &__close {
+        margin-left: 6px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,44 @@
+{
+  "name": "react-tags-widget",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/AdyOS/react-tags-widget.git"
+  },
+  "keywords": [
+    "react",
+    "tags"
+  ],
+  "author": "Andrey Osipov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdyOS/react-tags-widget/issues"
+  },
+  "homepage": "https://github.com/AdyOS/react-tags-widget#readme",
+  "dependencies": {
+    "autoprefixer-loader": "^3.2.0",
+    "css-loader": "^0.26.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "style-loader": "^0.13.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "extract-text-webpack-plugin": "^2.0.0-rc.3",
+    "less": "^2.7.2",
+    "less-loader": "^2.2.3",
+    "postcss": "^5.2.12",
+    "postcss-cssnext": "^2.9.0",
+    "postcss-loader": "^1.2.2",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.3.0"
+  }
+}
